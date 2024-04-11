@@ -1,0 +1,73 @@
+body{
+    background-color:  rgb(52,52,52);;
+    font-family: monospace;
+    font-size: 18px;
+    color: rgb(255,243,224);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+a {
+    text-decoration: underline; 
+    color: rgb(141,146,241);
+}
+a:visited {
+    color: rgb(141,146,241);
+}
+a:hover{
+    color: rgb(209, 196, 217);
+    text-shadow: 0 0 3px rgb(255,243,224);
+    font-weight: bold;
+}
+
+img.floaterbanner{
+    position: fixed;
+    z-index: -1;
+}
+img.absoluteitem{
+    position: absolute;
+    z-index: -1;
+}
+
+div.Profilebox {
+    position: absolute;
+    padding-top: 110px;
+    padding-left: 75px;
+}
+div.Profilebox img {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    padding: 0px;
+}
+
+
+div.Introbox {
+    padding-top: 120px;
+    padding-left: 400px;
+    width: 500px;
+}
+
+div.letterbox3 {
+    border-style: dashed;
+    border-width: 10px;
+    border-color: rgb(138,129,146);
+    width: 900px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+div.letterbox2 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255,243,224);
+    background-color: rgba(64, 61, 66, 0.1);;
+    width: 760px;
+    margin-left: 80px;
+    margin-top: 460px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
